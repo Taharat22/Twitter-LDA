@@ -63,3 +63,10 @@ There are two ways to run the code:
 1. You can create a new project using eclipse in the source code folder. Make sure all the jar files in the lib folder are loaded. Then just run this main file: TwitterLDA/TwitterLDAmain.java
 
 2. If u are using ant, just run "ant build". To run the main file, cd to the source code folder, and run: `java -cp ../bin TwitterLDA/TwitterLDAmain`
+
+Steps of Running LDA in NetBeans/Eclipse successfully
+1.	Download the project from git.
+2.	Instead of running the project directly create a new project in NetBeans or eclipse.
+3.	Copy all files from downloaded project to the project you have created.
+4.	Run it and you will find error at jc.java.
+5.	For removing this add library jarg. Which is available in the ‘lib’ folder/package of your project.
